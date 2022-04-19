@@ -1,14 +1,21 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: "Open Sans", sans-serif;
-  background: #222;
-  background-image: url("https://source.unsplash.com/1600x900/?landscape");
-  font-size: 120%;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url('./image/臺中市２.jpg');
+    font-size: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .description {
+    text-transform: capitalize;
+    /* margin-left: 8px; */
+  }
 
 .card {
   background: #000000d0;
@@ -85,11 +92,6 @@ h1.temp {
 .flex {
   display: flex;
   align-items: center;
-}
-
-.description {
-  text-transform: capitalize;
-  margin-left: 8px;
 }
 
 .weather.loading {

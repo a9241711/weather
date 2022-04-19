@@ -19,6 +19,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+
   <script src="./searchButton.js" defer></script>
 </head>
 
@@ -57,22 +58,19 @@
           </svg>
         </button>
       </div>
-      <div class="weather loading">
-        <h2 class="city">Weather in Denver</h2>
-        <h1 class="temp">51°C</h1>
-        <div class="flex">
-          <img
-            src="https://openweathermap.org/img/wn/04n.png"
-            alt=""
-            class="icon"
-          />
-          <div class="description">Cloudy</div>
-        </div>
-        <div class="humidity">Humidity: 60%</div>
-        <div class="wind">Wind speed: 6.2 km/h</div>
+     <div class="weather loading">
+      <h2 class="city"></h2>
+      <h1 class="temp"></h1>
+      <div class="flex">
+        <!-- <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" /> -->
+        <div class="description"></div>
       </div>
+      <div class="pop"></div>
+      <div class="comfort-index"></div>
     </div>
+  </div>
     <script src="./error.js"></script>
     <script  src="./fetchApi.js" defer></script>
+    <script  src="./render.js" defer></script>
   </body>
 </html>
