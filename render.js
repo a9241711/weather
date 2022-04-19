@@ -20,10 +20,6 @@ async function getApiFetch(word){
 
 init()
 
-if (input){
-  getApiFetch(input)
-}
-
 function init() {
   getApiFetch("臺中市")
 }
