@@ -17,4 +17,13 @@ async function getApiFetch(word){
   document.body.style.backgroundImage =
   "url('https://raw.githubusercontent.com/a9241711/weather/develop/image/" + name + ".jpg')";
 }
-getApiFetch("新竹市")
+
+init()
+
+if (input){
+  getApiFetch(input)
+}
+
+function init() {
+  getApiFetch("臺中市")
+}
