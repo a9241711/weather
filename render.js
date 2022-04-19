@@ -11,9 +11,9 @@ async function getApiFetch(word){
   document.querySelector(".city").innerText = name + " 天氣";
   document.querySelector(".description").innerText = description;
   document.querySelector(".temp").innerText = minTemp + " °C - "+ maxTemp + " °C";
-  document.querySelector(".humidity").innerText = "下雨機率 : " + precipitation + " %";
+  document.querySelector(".pop").innerText = "下雨機率 : " + precipitation + " %";
   document.querySelector(".weather").classList.remove("loading");
-  document.querySelector(".wind").innerText = comfortIndex;
+  document.querySelector(".comfort-index").innerText = comfortIndex;
   document.body.style.backgroundImage =
   "url('./image/" + name + ".jpg')";
 }
