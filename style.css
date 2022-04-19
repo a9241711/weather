@@ -6,10 +6,10 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: #222;
-    background-image: url('https://github.com/a9241711/weather/blob/develop/image/台中市２.jpg?raw=true');
+    background-image: url('./image/臺中市２.jpg');
+    font-size: 120%;
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 120%;
   }
   
   .card {

@@ -15,7 +15,7 @@ async function getApiFetch(word){
   document.querySelector(".weather").classList.remove("loading");
   document.querySelector(".wind").innerText = comfortIndex;
   document.body.style.backgroundImage =
-  "url('https://raw.githubusercontent.com/a9241711/weather/develop/image/" + name + ".jpg')";
+  "url('./image/" + name + ".jpg')";
 }
 
 init()
